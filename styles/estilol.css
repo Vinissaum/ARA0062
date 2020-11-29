@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ background-image: url("uzum3Dv.jpg"); 
+ color: #ffffff;
+ }
+ 
+ h1:hover{
+	 color: #d11507;
+ }
+ 
+  h2:hover{
+	 color: #d11507;
+ }
+ 
+  nav#menu {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 50;
+	left: 550px;
+ }
+ 
+ nav#menu li{
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 8px;
+	margin: 2px;
+	transition: background-color 1s;
+ }
+ 
+ nav#menu li:hover{
+	background-color: #d11507;
+ }
+ 
+ nav#menu h1{
+	 display: none;
+ }
+ 
+ nav#menu a{
+	 color: #000000;
+	 text-decoration: none;
+ }
+ 
+ nav#menu a:hover{
+	 color: #ffffff;
+	 text-decoration: underline;
+ }

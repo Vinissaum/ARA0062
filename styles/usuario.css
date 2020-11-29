@@ -1,0 +1,18 @@
+@charset "UTF-8";
+ body {
+ font-family: Arial, Helvetica, sans-serif;
+ background-image: url("d78d66c73e09664d5dd43117d9e4dfe8.jpg"); 
+ color: #ffffff;
+ }
+ 
+ h1:hover{
+	 color: #d11507;
+ }
+ 
+  h2:hover{
+	 color: #d11507;
+ }
+ 
+ th{
+     color: #E0E0E0;
+ }
